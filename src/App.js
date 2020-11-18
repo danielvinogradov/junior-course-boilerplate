@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <BaseHeadline headline={data.headline}/>
+        <BaseHeadline children={data.headline}/>
         <BaseList listItems={data.listItems}/>
       </div>
     )
