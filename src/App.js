@@ -10,10 +10,10 @@ const data = { headline: 'Список товаров', listItems, }
 class App extends React.Component {
   render() {
     return (
-      <div className="container">
+      <main className="container">
         <BaseHeadline children={data.headline}/>
         <BaseList listItems={data.listItems}/>
-      </div>
+      </main>
     )
   }
 }
